@@ -48,10 +48,10 @@ public class SimbirSoft  {
 			writer.println("<meta charset=\"UTF-8\"> <link rel=\"stylesheet\" href=\\\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\\\"> " +
 					"<style>" +
                     " .layer1 {\n" +
-                    "    float: left; /* Обтекание по правому краю */\n" +
-                    "    padding: 10px; /* Поля вокруг текста */\n" +
-                    "    margin-right: 20px; /* Отступ справа */\n" +
-                    "    width: 40%; /* Ширина блока */\n" +
+                    "    float: left; /* ГЋГЎГІГҐГЄГ Г­ГЁГҐ ГЇГ® ГЇГ°Г ГўГ®Г¬Гі ГЄГ°Г Гѕf */\n" +
+                    "    padding: 10px; /* ГЏГ®Г«Гї ГўГ®ГЄГ°ГіГЈ ГІГҐГЄГ±ГІГ  */\n" +
+                    "    margin-right: 20px; /* ГЋГІГ±ГІГіГЇ Г±ГЇГ°Г ГўГ  */\n" +
+                    "    width: 40%; /* ГГЁГ°ГЁГ­Г  ГЎГ«Г®ГЄГ  */\n" +
                     "   }" +
                     " .rightpic{\n"+
                     " padding-top: 20px; \n" +
@@ -60,13 +60,13 @@ public class SimbirSoft  {
                     "}"+
                     "</style>" +
 					 "<body>" + 
-					    "<center><b><h4>Резюме</h4></b><br> На должность: java - стажер <br></center>"+
+					    "<center><b><h4>ГђГҐГ§ГѕГ¬ГҐ</h4></b><br> ГЌГ  Г¤Г®Г«Г¦Г­Г®Г±ГІГј: java - Г±ГІГ Г¦ГҐГ° <br></center>"+
 					
 					                   "  <div class=\"layer1\">\n" +
-					                   " <b>ФИО: </b>" + FIO +
-					                    "<b><br>Дата рождения: </b>" + DOB +
+					                   " <b>Г”Г€ГЋ: </b>" + FIO +
+					                    "<b><br>Г„Г ГІГ  Г°Г®Г¦Г¤ГҐГ­ГЁГї: </b>" + DOB +
 					                    "<b><br>e-mail: </b>" + email +
-					                    "<b><br>Телефон: </b>" + mobile_phone +
+					                    "<b><br>Г’ГҐГ«ГҐГґГ®Г­: </b>" + mobile_phone +
 					                    "<b><br>Skype: </b>" + skype +
 					                    "\n" +
 					                    "  </div>\n" +
@@ -74,8 +74,8 @@ public class SimbirSoft  {
 					                    "   <img class=\"rightpic\"  src=\"" + avatar + "\"></p><br>" +
 					                    "  </div>\n" +
 					                    "<div class = \"layer1\">\n" +
-					                    " <br><h3><b>Цель: </b></h3>" + target +
-					                    " <br><h3><b>Образование: </b></h3>" + education +
+					                    " <br><h3><b>Г–ГҐГ«Гј: </b></h3>" + target +
+					                    " <br><h3><b>ГЋГЎГ°Г Г§Г®ГўГ Г­ГЁГҐ: </b></h3>" + education +
 					                    "</div>" +
 					                    " </body>"
 										
@@ -84,7 +84,7 @@ public class SimbirSoft  {
 			writer.close();
 
 		} catch (IOException e) {
-			System.out.println("Ошибка в файле"+ PATH_TO_PROPERTIES);
+			System.out.println("ГЋГёГЁГЎГЄГ  Гў ГґГ Г©Г«ГҐ"+ PATH_TO_PROPERTIES);
 				e.printStackTrace();
 
 		}
